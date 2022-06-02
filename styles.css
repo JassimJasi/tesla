@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'M PLUS 1', sans-serif;
+}
+.impactPage{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    position: fixed;
+    padding: 10px;
+}
+.impactPage a{
+    color: var(--tds-text--color);
+    font-size: 15px;
+    margin: 5px;
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 15px 25px;
+    padding-left: 45px;
+    position: fixed;
+    top: 45px;    
+    width: 100%;
+    
+}
+.logo {
+    width: 90px;
+    height: 18px;
+    color: var(--tds-text--color);
+}
+header svg{
+    height: 13px;
+}
+header a{
+    color: var(--tds-text--color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navCenter{
+    text-align: center;
+}
+header nav a {
+    height: 20px;
+    padding: 5px 10px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-origin: border-box;
+    padding-top: 10px;
+}
+
+section .content{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+section h1{
+    font-size: 2rem;
+}
+section a {
+    color: var(--tds-text--color);
+    font-weight: 100;
+}
+section p{
+    font-size: medium;
+}
+section button {
+    padding: 8px 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+   
+}
+#customBtn{
+    color: #fff;
+    background-color: rgba(23, 26, 32, 0.8);
+    margin-right: 5px;
+}
+#inventoryBtn {
+    margin-left: 5px;
+    color: var(--tds-text--color);
+}
+.footer{
+    text-align: center;
+    height: 42px;
+}
+footer a{
+    color: var(--tds-text--color--light);
+    text-decoration: none;
+    box-shadow: none;
+    font-family: var(--tds-font-family--combined);
+    font-size: 12px;
+    padding: 5px;
+}
